@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HealthCare.master.cs" Inherits="HajjHealthKey.HealthCare.HealthCare" %>
+
+<!DOCTYPE html>
+
+<html>
+    <title>::: Health Care ::::</title>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style2 {
+            height: 60px;
+        }
+        #Table_01 {
+            height: 263px;
+        }
+    </style>
+</head>
+<body background ="../images/abstract-background-with-hexagonal-pattern_1319-67.jpg">
+    <form id="form1" runat="server">
+       
+
+<table id="Table_01" width="1366" border="0" cellpadding="0" cellspacing="0" align = center>
+	<tr bgcolor="#FFFFFF">
+		<td width="36" class="auto-style2">
+		<p align="center">
+		<img src="../images/hajjhalthykey_01.png" width="36" height="213" alt=""></td>
+		<td width="135" class="auto-style2">
+		<p align="center">
+		<img src="../images/hajjhalthykey_02.png" width="135" height="213" alt=""></td>
+		<td width="643" class="auto-style2">
+		<p align="center">
+		<img src="../images/hajjhalthykey_03.png" width="643" height="213" alt=""></td>
+		<td width="520" class="auto-style2">
+		<p align="center">
+		<img src="../images/hajjhalthykey_04.png" width="520" height="213" alt=""></td>
+		<td width="31" class="auto-style2">
+		<p align="center">
+		<img src="../images/hajjhalthykey_05.png" width="31" height="213" alt=""></td>
+		<td width="1" class="auto-style2">
+		<p align="center">
+		<img src="../images/hajjhalthykey_06.png" width="1" height="213" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="6"  bgcolor="#FFFFFF" >
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </td>
+	</tr>
+	<tr bgcolor="#FFFFFF">
+		<td width="36">
+		<p align="center">
+		<img src="../../images/hajjhalthykey_17.png" width="36" height="74" alt=""></td>
+		<td width="135">
+		<p align="center">
+		<img src="../images/hajjhalthykey_18.png" width="135" height="74" alt=""></td>
+		<td width="643">
+		<p align="center">
+		<img src="../images/hajjhalthykey_19.png" width="643" height="74" alt=""></td>
+		<td width="520">
+		<p align="center">
+		<img src="../images/hajjhalthykey_20.png" width="520" height="74" alt=""></td>
+		<td colspan="2">
+		<p align="center">
+		<img src="../images/hajjhalthykey_21.png" width="32" height="74" alt=""></td>
+	</tr>
+</table>
+
+
+    </form>
+
+
+
+
+    </body>
+</html>
