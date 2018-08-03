@@ -16,7 +16,15 @@ namespace HajjHealthKey.DroneShip
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Home.aspx");
+            if (TextBox1.Text == "User1".Trim() && TextBox2.Text == "123".Trim())
+            {
+                Response.Redirect("Home.aspx");
+            }
+            else
+            {
+                Button1.Text = "Wrong Username or Password, please try again.";
+                TextBox1.Text = "";
+            }
         }
     }
 }
